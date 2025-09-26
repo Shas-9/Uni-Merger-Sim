@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://db8pb2244elc7"]
+
+[ext_resource type="PackedScene" uid="uid://cpdqgodtu2gpv" path="res://Scenes/boss.tscn" id="2_d27am"]
+[ext_resource type="PackedScene" uid="uid://byuqxcibfstxy" path="res://Scenes/player.tscn" id="3_poe2g"]
+
+[node name="Scene1" type="Node2D"]
+position = Vector2(1, -1)
+
+[node name="Player" parent="." instance=ExtResource("3_poe2g")]
+position = Vector2(563, 524)
+scale = Vector2(0.2, 0.2)
+
+[node name="Boss" parent="." instance=ExtResource("2_d27am")]
+position = Vector2(555, 36)
+scale = Vector2(0.5, 0.5)
