@@ -1,15 +1,40 @@
-[gd_scene load_steps=3 format=3 uid="uid://db8pb2244elc7"]
+[gd_scene load_steps=6 format=3 uid="uid://db8pb2244elc7"]
 
 [ext_resource type="PackedScene" uid="uid://cpdqgodtu2gpv" path="res://Scenes/boss.tscn" id="2_d27am"]
 [ext_resource type="PackedScene" uid="uid://byuqxcibfstxy" path="res://Scenes/player.tscn" id="3_poe2g"]
+[ext_resource type="Script" uid="uid://ximq6mx1q67y" path="res://Scripts/hitcounter.gd" id="3_r5e8v"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r5e8v"]
+bg_color = Color(0.87538236, 0, 0.101878576, 1)
+
+[sub_resource type="GDScript" id="GDScript_52ox3"]
+script/source = "extends Label
+"
 
 [node name="Scene1" type="Node2D"]
-position = Vector2(1, -1)
 
 [node name="Player" parent="." instance=ExtResource("3_poe2g")]
 position = Vector2(563, 524)
 scale = Vector2(0.2, 0.2)
 
 [node name="Boss" parent="." instance=ExtResource("2_d27am")]
-position = Vector2(555, 36)
+position = Vector2(460, 100)
 scale = Vector2(0.5, 0.5)
+
+[node name="BossHealthBar" type="ProgressBar" parent="Boss"]
+offset_left = -544.0
+offset_top = -96.0
+offset_right = 538.0
+offset_bottom = -69.0
+theme_override_styles/fill = SubResource("StyleBoxFlat_r5e8v")
+max_value = 20.0
+value = 5.0
+
+[node name="HUD" type="CanvasLayer" parent="." groups=["hud"]]
+script = ExtResource("3_r5e8v")
+
+[node name="Signatures" type="Label" parent="HUD"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Hits: 0"
+script = SubResource("GDScript_52ox3")

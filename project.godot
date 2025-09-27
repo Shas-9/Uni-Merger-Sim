@@ -14,3 +14,8 @@ config/name="Uni-merger-sim"
 run/main_scene="uid://db8pb2244elc7"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[global_group]
+
+Player=""
+player_bullet=""

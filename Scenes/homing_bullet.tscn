@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://brwjfsynvnw3c"]
+
+[ext_resource type="Script" uid="uid://cgbpr2ds4yn7m" path="res://Scripts/homing_bullet.gd" id="1_0s35j"]
+[ext_resource type="Texture2D" uid="uid://bedml1acat08b" path="res://gun-air-defence-missile-transparent-png-image-8.webp" id="2_eybcv"]
+
+[node name="homing_bullet" type="Node2D"]
+script = ExtResource("1_0s35j")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -5)
+scale = Vector2(0.13, 0.13715228)
+texture = ExtResource("2_eybcv")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+position = Vector2(-44, 0)
+target_position = Vector2(97.84, 0)
+collide_with_areas = true
+collide_with_bodies = false
