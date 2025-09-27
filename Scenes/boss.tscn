@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpdqgodtu2gpv"]
+
+[ext_resource type="Script" uid="uid://bsnvi7at1moam" path="res://Scripts/boss.gd" id="1_wwfse"]
+[ext_resource type="Texture2D" uid="uid://y878jfpsu558" path="res://icon.svg" id="2_cxrok"]
+
+[node name="Boss" type="Node2D"]
+script = ExtResource("1_wwfse")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.8034783, 0, 0.15453622, 1)
+position = Vector2(-2, 2)
+texture = ExtResource("2_cxrok")

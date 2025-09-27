@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://ly8md1dnk1ck"]
+
+[ext_resource type="Script" uid="uid://sp5823pt04aa" path="res://boss_attack_3.gd" id="1_pplcs"]
+[ext_resource type="Texture2D" uid="uid://b0sgx1u3ar8mk" path="res://pngtree-hand-direction-conceptual-isolated-png-image_10449723.webp" id="2_g4ykb"]
+
+[node name="boss_attack_3" type="Node2D"]
+script = ExtResource("1_pplcs")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(121.00001, -1)
+rotation = -3.3367133
+scale = Vector2(0.265, 0.265)
+texture = ExtResource("2_g4ykb")
+
+[node name="FirePoint" type="Node2D" parent="Sprite2D"]
+position = Vector2(30.603321, 35.24413)
+rotation = 2.6715353
+scale = Vector2(3.773585, 3.773585)
