@@ -1,6 +1,7 @@
 extends Node2D
 @onready var player: Node2D = get_tree().get_first_node_in_group("Player")
-var lazer = load('res://Scenes/laser.tscn')
+var lazer = load('res://DevlynScenes/laser.tscn')
+
 var fire_rate: float = 4  # seconds between bullets
 var time_since_last_shot: float = 0.0
 var max_bullets = 1

@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=3 uid="uid://db8pb2244elc7"]
 
-[ext_resource type="PackedScene" uid="uid://cpdqgodtu2gpv" path="res://Scenes/boss.tscn" id="2_d27am"]
-[ext_resource type="PackedScene" uid="uid://byuqxcibfstxy" path="res://Scenes/player.tscn" id="3_poe2g"]
-[ext_resource type="Script" uid="uid://ximq6mx1q67y" path="res://Scripts/hitcounter.gd" id="3_r5e8v"]
+[ext_resource type="PackedScene" uid="uid://cpdqgodtu2gpv" path="res://DevlynScenes/boss.tscn" id="2_d27am"]
+[ext_resource type="PackedScene" uid="uid://byuqxcibfstxy" path="res://DevlynScenes/player.tscn" id="3_poe2g"]
+[ext_resource type="Script" uid="uid://ximq6mx1q67y" path="res://DevlynScripts/hitcounter.gd" id="3_r5e8v"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r5e8v"]
 bg_color = Color(0.87538236, 0, 0.101878576, 1)
@@ -17,7 +17,7 @@ script/source = "extends Label
 position = Vector2(563, 524)
 scale = Vector2(0.2, 0.2)
 
-[node name="Boss" parent="." instance=ExtResource("2_d27am")]
+[node name="Boss" parent="." groups=["boss"] instance=ExtResource("2_d27am")]
 position = Vector2(460, 100)
 scale = Vector2(0.5, 0.5)
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dhhpkaw8jf81w"
-path="res://.godot/imported/bullet-png-from-pngfre-4-1024x404.webp-97db49ff94e4dcba89238d734d09aa48.ctex"
+uid="uid://bedml1acat08b"
+path="res://.godot/imported/gun-air-defence-missile-transparent-png-image-8.webp-94926687421f120dcbbd3eca89ac5a02.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://bullet-png-from-pngfre-4-1024x404.webp"
-dest_files=["res://.godot/imported/bullet-png-from-pngfre-4-1024x404.webp-97db49ff94e4dcba89238d734d09aa48.ctex"]
+source_file="res://DevlynArt/gun-air-defence-missile-transparent-png-image-8.webp"
+dest_files=["res://.godot/imported/gun-air-defence-missile-transparent-png-image-8.webp-94926687421f120dcbbd3eca89ac5a02.ctex"]
 
 [params]
 

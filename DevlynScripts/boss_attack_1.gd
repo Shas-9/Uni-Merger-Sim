@@ -1,7 +1,7 @@
 extends Node2D
 
-var bullet_scene = load('res://Scenes/bullet.tscn')
-@export var fire_rate: float = .01  # seconds between bullets
+var bullet_scene = load('res://DevlynScenes/bullet.tscn')
+@export var fire_rate: float = .04  # seconds between bullets
 var time_since_last_shot: float = 0.0
 var max_bullets = 500
 var bullets_shot = 0

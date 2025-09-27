@@ -1,6 +1,6 @@
 extends Node2D
 @onready var player: Node2D = get_tree().get_first_node_in_group("Player")
-var explosion = load('res://Scenes/explosion.tscn')
+var explosion = load('res://DevlynScenes/explosion.tscn')
 var speed = randf_range(2,7)
 var life_time = 2
 func _process(delta: float) -> void:

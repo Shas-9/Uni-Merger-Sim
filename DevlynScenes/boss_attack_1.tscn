@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cjfovwxi7ue6n"]
 
-[ext_resource type="Script" uid="uid://wcloexaf8ckb" path="res://Scripts/boss_attack_1.gd" id="1_8gjrb"]
-[ext_resource type="Texture2D" uid="uid://y878jfpsu558" path="res://icon.svg" id="2_ddoq8"]
+[ext_resource type="Script" uid="uid://wcloexaf8ckb" path="res://DevlynScripts/boss_attack_1.gd" id="1_8gjrb"]
+[ext_resource type="Texture2D" uid="uid://y878jfpsu558" path="res://DevlynArt/icon.svg" id="2_ddoq8"]
 
 [node name="Boss Attack 1" type="Node2D"]
 

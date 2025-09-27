@@ -1,5 +1,5 @@
 extends Node2D
-var bullet = load('res://Scenes/homing_bullet.tscn')
+var bullet = load('res://DevlynScenes/homing_bullet.tscn')
 @onready var firepoint: Node2D = $Sprite2D/FirePoint
 var fire_rate: float = .2  # seconds between bullets
 var time_since_last_shot: float = 0.0
