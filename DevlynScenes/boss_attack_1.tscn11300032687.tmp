@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://cjfovwxi7ue6n"]
+
+[ext_resource type="Script" uid="uid://wcloexaf8ckb" path="res://Scripts/boss_attack_1.gd" id="1_8gjrb"]
+[ext_resource type="Texture2D" uid="uid://y878jfpsu558" path="res://icon.svg" id="2_ddoq8"]
+
+[node name="Boss Attack 1" type="Node2D"]
+
+[node name="Boss" type="Node2D" parent="."]
+position = Vector2(76, 4)
+scale = Vector2(0.41, 0.41)
+script = ExtResource("1_8gjrb")
+
+[node name="Sprite2D" type="Sprite2D" parent="Boss"]
+modulate = Color(0.8034783, 0, 0.15453622, 1)
+position = Vector2(-2, 2)
+texture = ExtResource("2_ddoq8")
+
+[node name="Boss2" type="Node2D" parent="."]
+position = Vector2(1076, 4)
+scale = Vector2(0.41, 0.41)
+
+[node name="Sprite2D" type="Sprite2D" parent="Boss2"]
+modulate = Color(0.8034783, 0, 0.15453622, 1)
+position = Vector2(-2, 2)
+texture = ExtResource("2_ddoq8")

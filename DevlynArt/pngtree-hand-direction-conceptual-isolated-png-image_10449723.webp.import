@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dr2viu05gaa7y"
-path="res://.godot/imported/petition-paper-item.png-d2f285e6b057d2a335e5422001e36efc.ctex"
+uid="uid://b0sgx1u3ar8mk"
+path="res://.godot/imported/pngtree-hand-direction-conceptual-isolated-png-image_10449723.webp-b3cdf57da789084d96a601a31a8008d0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/petition-paper-item.png"
-dest_files=["res://.godot/imported/petition-paper-item.png-d2f285e6b057d2a335e5422001e36efc.ctex"]
+source_file="res://DevlynArt/pngtree-hand-direction-conceptual-isolated-png-image_10449723.webp"
+dest_files=["res://.godot/imported/pngtree-hand-direction-conceptual-isolated-png-image_10449723.webp-b3cdf57da789084d96a601a31a8008d0.ctex"]
 
 [params]
 
