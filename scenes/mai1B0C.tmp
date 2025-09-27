@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://du83lyc8nql6k"]
+
+[ext_resource type="PackedScene" uid="uid://cix2ovm2r6dho" path="res://scenes/generic_npc.tscn" id="1_4v7ck"]
+[ext_resource type="PackedScene" uid="uid://b75ir7pjoqxkj" path="res://scenes/player.tscn" id="1_a443g"]
+
+[node name="MainScene" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Player" parent="." instance=ExtResource("1_a443g")]
+
+[node name="generic_npc" parent="." instance=ExtResource("1_4v7ck")]
+position = Vector2(72, 2)
+scale = Vector2(0.5, 0.5)
+patrolPoints = [Vector2(50, 30), Vector2(-90, -100), Vector2(100, 0), Vector2(120, -100)]
