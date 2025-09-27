@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://k16fcnvqb2oi"]
+
+[ext_resource type="Script" uid="uid://da43bpm1xu2wa" path="res://DevlynScripts/laser.gd" id="1_r1bh0"]
+
+[node name="laser" type="Node2D" groups=["projectiles"]]
+script = ExtResource("1_r1bh0")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+position = Vector2(-70, 30)
+target_position = Vector2(0, 4000)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D2" type="RayCast2D" parent="."]
+position = Vector2(0, 30)
+target_position = Vector2(0, 4000)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D3" type="RayCast2D" parent="."]
+position = Vector2(69, 32)
+target_position = Vector2(0, 4000)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -80.0
+offset_top = 30.0
+offset_right = 80.0
+offset_bottom = 4030.0

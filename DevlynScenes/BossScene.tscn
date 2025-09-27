@@ -1,0 +1,41 @@
+[gd_scene load_steps=6 format=3 uid="uid://db8pb2244elc7"]
+
+[ext_resource type="PackedScene" uid="uid://cpdqgodtu2gpv" path="res://DevlynScenes/boss.tscn" id="2_d27am"]
+[ext_resource type="PackedScene" uid="uid://b75ir7pjoqxkj" path="res://scenes/player.tscn" id="3_j4nga"]
+
+[ext_resource type="Script" uid="uid://ximq6mx1q67y" path="res://DevlynScripts/SignatureCounter.gd" id="3_r5e8v"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r5e8v"]
+bg_color = Color(0.875382, 0, 0.101879, 1)
+
+[sub_resource type="GDScript" id="GDScript_52ox3"]
+script/source = "extends Label
+"
+
+[node name="Scene1" type="Node2D"]
+
+[node name="Boss" parent="." groups=["boss"] instance=ExtResource("2_d27am")]
+position = Vector2(460, 100)
+scale = Vector2(0.8, 0.8)
+
+[node name="BossHealthBar" type="ProgressBar" parent="Boss"]
+offset_left = -544.0
+offset_top = -96.0
+offset_right = 538.0
+offset_bottom = -69.0
+theme_override_styles/fill = SubResource("StyleBoxFlat_r5e8v")
+max_value = 20.0
+value = 5.0
+
+[node name="HUD" type="CanvasLayer" parent="." groups=["hud"]]
+script = ExtResource("3_r5e8v")
+
+[node name="Signatures" type="Label" parent="HUD"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Signatures Left: 100"
+script = SubResource("GDScript_52ox3")
+
+[node name="Player" parent="." groups=["Player"] instance=ExtResource("3_j4nga")]
+position = Vector2(482, 514)
+scale = Vector2(0.5, 0.5)
