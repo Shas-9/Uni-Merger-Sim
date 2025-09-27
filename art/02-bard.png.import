@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dr2viu05gaa7y"
-path="res://.godot/imported/petition-paper-item.png-d2f285e6b057d2a335e5422001e36efc.ctex"
+uid="uid://bv0fukj8psv7r"
+path="res://.godot/imported/02-bard.png-3bbeb2e72ba0f87bd790d03950561a31.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/petition-paper-item.png"
-dest_files=["res://.godot/imported/petition-paper-item.png-d2f285e6b057d2a335e5422001e36efc.ctex"]
+source_file="res://art/02-bard.png"
+dest_files=["res://.godot/imported/02-bard.png-3bbeb2e72ba0f87bd790d03950561a31.ctex"]
 
 [params]
 

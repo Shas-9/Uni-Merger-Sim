@@ -19,7 +19,5 @@ func _process(delta):
 	var boss = get_tree().get_first_node_in_group("boss")
 	if boss:
 		if ($RayCast2D.is_colliding() ):
-			queue_free()
 			boss.take_damage()
-			
 	

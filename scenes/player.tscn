@@ -1,7 +1,7 @@
-[gd_scene load_steps=15 format=3 uid="uid://b75ir7pjoqxkj"]
+[gd_scene load_steps=16 format=3 uid="uid://b75ir7pjoqxkj"]
 
 [ext_resource type="Texture2D" uid="uid://b6rnhssmwwqjc" path="res://art/chibi-layered.png" id="1_po105"]
-[ext_resource type="Script" uid="uid://dacwnalffutbs" path="res://scripts/player.gd" id="1_r8yge"]
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_r8yge"]
 [ext_resource type="PackedScene" uid="uid://bmcjqwtlibqib" path="res://scenes/projectile.tscn" id="2_d0gyb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_id6k6"]
@@ -89,7 +89,11 @@ animations = [{
 radius = 6.0
 height = 18.0
 
-[node name="Player" type="Area2D" groups=["Player"]]
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ma2v7"]
+radius = 46.0
+height = 92.0
+
+[node name="Player" type="Area2D"]
 script = ExtResource("1_r8yge")
 projectile_scene = ExtResource("2_d0gyb")
 metadata/_edit_group_ = true
@@ -102,3 +106,8 @@ animation = &"walk_back"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 scale = Vector2(3, 3)
 shape = SubResource("CapsuleShape2D_j20tn")
+
+[node name="DetectionArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea"]
+shape = SubResource("CapsuleShape2D_ma2v7")

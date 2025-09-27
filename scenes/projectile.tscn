@@ -1,7 +1,11 @@
-[gd_scene load_steps=5 format=3 uid="uid://bmcjqwtlibqib"]
+[gd_scene load_steps=6 format=3 uid="uid://bmcjqwtlibqib"]
 
-[ext_resource type="Script" uid="uid://masuhnxdv3w4" path="res://scripts/projectile.gd" id="1_mhb2i"]
+[ext_resource type="Script" path="res://scripts/projectile.gd" id="1_mhb2i"]
 [ext_resource type="Texture2D" uid="uid://dr2viu05gaa7y" path="res://art/petition-paper-item.png" id="2_778nh"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_1msl4"]
+radius = 8.0
+height = 20.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4tyeo"]
 atlas = ExtResource("2_778nh")
@@ -20,6 +24,9 @@ animations = [{
 
 [node name="Projectile" type="Area2D"]
 script = ExtResource("1_mhb2i")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_1msl4")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_75ly7")
