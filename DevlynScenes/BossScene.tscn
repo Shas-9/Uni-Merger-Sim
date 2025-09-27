@@ -15,7 +15,7 @@ script/source = "extends Label
 
 [node name="Boss" parent="." groups=["boss"] instance=ExtResource("2_d27am")]
 position = Vector2(460, 100)
-scale = Vector2(0.5, 0.5)
+scale = Vector2(0.8, 0.8)
 
 [node name="BossHealthBar" type="ProgressBar" parent="Boss"]
 offset_left = -544.0

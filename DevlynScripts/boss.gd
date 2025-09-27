@@ -27,7 +27,7 @@ func _process(delta: float) -> void:
 		death()
 	if current_health == max_health/2:
 		interval_between_attacks = interval_between_attacks_2 
-		self.scale = Vector2(2,2)
+		self.scale = Vector2(1,1)
 		
 	
 	
