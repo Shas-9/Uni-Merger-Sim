@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://bt73y3osfkd8a"]
+
+[ext_resource type="PackedScene" uid="uid://dl1l036gk2pc2" path="res://scenes/environment.tscn" id="1_yqjtg"]
+[ext_resource type="PackedScene" uid="uid://b2u1j75jyryq3" path="res://scenes/environment_3.tscn" id="2_lnu2h"]
+
+[node name="Game" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(0, 38)
+
+[node name="Environment" parent="StaticBody2D" instance=ExtResource("1_yqjtg")]
+position = Vector2(5, -54)
+
+[node name="Environment3" parent="StaticBody2D" instance=ExtResource("2_lnu2h")]
+position = Vector2(0, -38)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(8380, 3832)
+zoom = Vector2(0.065, 0.065)

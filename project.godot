@@ -11,5 +11,10 @@ config_version=5
 [application]
 
 config/name="Uni-merger-sim"
-config/features=PackedStringArray("4.2", "Forward Plus")
+run/main_scene="uid://bt73y3osfkd8a"
+config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
