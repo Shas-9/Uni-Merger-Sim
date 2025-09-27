@@ -9,7 +9,7 @@ var patrolIndex = 0
 
 @export var walkSpeed = 50
 @export var textSpeed = 1
-w
+
 var talking = false
 var walking = false
 @export var pauseWalking = false
@@ -67,14 +67,10 @@ var maxFrame = 2
 var animationSpeed = 5
 func runAnimation(delta: float) -> void:
 	if walking and not pauseWalking:
-		if not $npc/AnimatedSprite2D.is_playing():
-			$npc/AnimatedSprite2D.play()
-		#currentFrame += animationSpeed * delta
-	else:
-		$npc/AnimatedSprite2D.stop()
-	#if currentFrame >= maxFrame:
-		#currentFrame = 0
-	#$AnimatedSprite2D.frame = int(currentFrame)
+		currentFrame += animationSpeed * delta
+	if currentFrame >= maxFrame:
+		currentFrame = 0
+	$npc/AnimatedSprite2D.frame = int(currentFrame)
 	
 var timePassed = 0	
 func patrol(delta: float) -> void:
@@ -95,8 +91,10 @@ func _process(delta: float) -> void:
 	runAnimation(delta)
 	
 	if (can_move):
-		pauseWalking = false
 		patrol(delta)
-	else:
-		pauseWalking = true
 
+func stop_movement():
+	can_move = false
+
+func resume_movement():
+	can_move = true

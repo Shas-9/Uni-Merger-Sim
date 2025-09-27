@@ -4,7 +4,7 @@ func _mouse_enter() -> void:
 	get_parent().mouseEnter()
 
 func stop_movement():
-	can_move = false
+	get_parent().stop_movement()
 
 func resume_movement():
-	can_move = true
+	get_parent().resume_movement()
