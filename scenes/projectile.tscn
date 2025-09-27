@@ -30,3 +30,9 @@ shape = SubResource("CapsuleShape2D_1msl4")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_75ly7")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+position = Vector2(0, 10)
+target_position = Vector2(0, -22)
+collide_with_areas = true
+collide_with_bodies = false
