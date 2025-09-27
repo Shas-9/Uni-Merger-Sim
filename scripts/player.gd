@@ -17,8 +17,7 @@ var screen_size
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	screen_size = get_viewport_rect().size
-	$DetectionArea.body_entered.connect(_on_detection_area_body_entered)
-	$DetectionArea.body_exited.connect(_on_detection_area_body_exited)
+	
 
 func start(pos):
 	position = pos
@@ -79,12 +78,3 @@ func throw_projectile():
 	projectile.position = position
 	get_parent().add_child(projectile)
 	projectile.direction = Vector2.UP
-
-func _on_detection_area_body_entered(body):
-	if body.is_in_group("npcs"):
-		print("npc entered")
-		body.stop_movement()
-
-func _on_detection_area_body_exited(body):
-	if body.is_in_group("npcs"):
-		body.resume_movement()
