@@ -38,6 +38,7 @@ func _process(delta):
 		velocity.y -= 1
 	if Input.is_action_just_pressed("throw_projectile"):
 		throw_projectile()
+		
 
 	# Dash logic
 	if dash_cooldown_left > 0:

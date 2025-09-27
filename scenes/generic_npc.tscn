@@ -7,9 +7,6 @@
 [sub_resource type="Theme" id="Theme_jnagy"]
 default_font_size = 50
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_tsvl0"]
-size = Vector2(242.321, 386.931)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_m726y"]
 atlas = ExtResource("3_jnagy")
 region = Rect2(96, 0, 16, 16)
@@ -117,8 +114,17 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tsvl0"]
+size = Vector2(242.321, 386.931)
+
 [node name="generic_npc" type="Node2D" groups=["npcs"]]
 script = ExtResource("1_tsvl0")
+dialoguePath = null
+patrolPoints = null
+pauseBetweenPoints = null
+walkSpeed = null
+textSpeed = null
+pauseWalking = null
 
 [node name="Label" type="Label" parent="."]
 offset_left = -145.0
@@ -130,16 +136,17 @@ text = "Hello World"
 visible_characters = 0
 visible_ratio = 0.0
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="npc" type="CharacterBody2D" parent="." groups=["npcs"]]
 scale = Vector2(0.255859, 0.255859)
 script = ExtResource("2_s0l4h")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(0, 1.95419)
-shape = SubResource("RectangleShape2D_tsvl0")
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(7.62939e-06, -7.62939e-06)
-scale = Vector2(5.875, 5.875)
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="npc"]
+position = Vector2(2.98187e-05, -2.98187e-05)
+scale = Vector2(22.9619, 22.9619)
 sprite_frames = SubResource("SpriteFrames_3182b")
 animation = &"right"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="npc"]
+position = Vector2(0, 1.95419)
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_tsvl0")
