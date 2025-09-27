@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://b7juecffuaapi" path="res://DevlynScripts/bullet.gd" id="1_oduel"]
 [ext_resource type="Texture2D" uid="uid://dhhpkaw8jf81w" path="res://DevlynArt/bullet-png-from-pngfre-4-1024x404.webp" id="2_oduel"]
 
-[node name="Bullet" type="Node2D"]
+[node name="Bullet" type="Node2D" groups=["projectiles"]]
 position = Vector2(3, 2)
 scale = Vector2(2, 2)
 script = ExtResource("1_oduel")

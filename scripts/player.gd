@@ -8,6 +8,8 @@ signal hit
 @export var dash_duration = 0.2
 @export var dash_cooldown = 0.5
 
+var cooldown = 1
+var current_cooldown = 0
 var is_dashing = false
 var dash_time_left = 0.0
 var dash_cooldown_left = 0.0
@@ -27,6 +29,7 @@ func start(pos):
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	current_cooldown -= delta
 	var velocity = Vector2.ZERO
 	if Input.is_action_pressed("move_right"):
 		velocity.x += 1
@@ -36,8 +39,10 @@ func _process(delta):
 		velocity.y += 1
 	if Input.is_action_pressed("move_up"):
 		velocity.y -= 1
-	if Input.is_action_just_pressed("throw_projectile"):
+	if Input.is_action_just_pressed("throw_projectile") && current_cooldown <= 0:
+		current_cooldown = cooldown
 		throw_projectile()
+		
 
 	# Dash logic
 	if dash_cooldown_left > 0:
