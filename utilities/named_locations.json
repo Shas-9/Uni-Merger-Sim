@@ -1,0 +1,452 @@
+[
+  {
+    "type": "building",
+    "name": "Ingkarni Wardli",
+    "pixel_x": 655.2860614024103,
+    "pixel_y": 680.7686287378892
+  },
+  {
+    "type": "building",
+    "name": "Madley",
+    "pixel_x": 329.67982425540686,
+    "pixel_y": 687.1786419767886
+  },
+  {
+    "type": "building",
+    "name": "Playford",
+    "pixel_x": 772.0237900111824,
+    "pixel_y": 539.7431949507445
+  },
+  {
+    "type": "building",
+    "name": "Centenary",
+    "pixel_x": 797.7325402013958,
+    "pixel_y": 482.0019786981866
+  },
+  {
+    "type": "building",
+    "name": "Brookman",
+    "pixel_x": 824.9565540868789,
+    "pixel_y": 431.43018100131303
+  },
+  {
+    "type": "building",
+    "name": "Bonython Jubilee",
+    "pixel_x": 772.0377606395632,
+    "pixel_y": 601.886042044498
+  },
+  {
+    "type": "building",
+    "name": "Adelaide Botanic High School",
+    "pixel_x": 806.9777052681893,
+    "pixel_y": 898.3928373707458
+  },
+  {
+    "type": "building",
+    "name": "Engineering South",
+    "pixel_x": 693.578317720443,
+    "pixel_y": 598.7422210676596
+  },
+  {
+    "type": "building",
+    "name": "Johnson",
+    "pixel_x": 330.41262324154377,
+    "pixel_y": 788.6067791152745
+  },
+  {
+    "type": "building",
+    "name": "Barr Smith South",
+    "pixel_x": 576.191913312301,
+    "pixel_y": 596.500127505511
+  },
+  {
+    "type": "building",
+    "name": "Hub Central",
+    "pixel_x": 569.9428963698447,
+    "pixel_y": 569.765048594214
+  },
+  {
+    "type": "building",
+    "name": "Oliphant",
+    "pixel_x": 383.2693907674402,
+    "pixel_y": 576.1104318257421
+  },
+  {
+    "type": "building",
+    "name": "Benham Laboratories",
+    "pixel_x": 589.8467571660876,
+    "pixel_y": 780.1541531346738
+  },
+  {
+    "type": "building",
+    "name": "Hetzel",
+    "pixel_x": 836.7771857120097,
+    "pixel_y": 545.0354501586407
+  },
+  {
+    "type": "building",
+    "name": "Workshop",
+    "pixel_x": 425.0531890243292,
+    "pixel_y": 558.0784131633118
+  },
+  {
+    "type": "building",
+    "name": "Badger",
+    "pixel_x": 335.9754073731601,
+    "pixel_y": 736.7785029178485
+  },
+  {
+    "type": "building",
+    "name": "Jordan",
+    "pixel_x": 256.9200673624873,
+    "pixel_y": 781.378072922118
+  },
+  {
+    "type": "building",
+    "name": "Brailsford Robertson",
+    "pixel_x": 255.36893343552947,
+    "pixel_y": 815.0571987703443
+  },
+  {
+    "type": "building",
+    "name": "Marjoribanks Wing",
+    "pixel_x": 737.6052613388747,
+    "pixel_y": 325.37173478584737
+  },
+  {
+    "type": "building",
+    "name": "Wilson Parking",
+    "pixel_x": 785.5099610928446,
+    "pixel_y": 306.74037845246494
+  },
+  {
+    "type": "building",
+    "name": "Bonython Hall",
+    "pixel_x": 659.4601097553968,
+    "pixel_y": 450.0325062805787
+  },
+  {
+    "type": "building",
+    "name": "The Braggs",
+    "pixel_x": 619.7986781187356,
+    "pixel_y": 745.0010563982651
+  },
+  {
+    "type": "building",
+    "name": "Helen Mayo North",
+    "pixel_x": 857.7530789636075,
+    "pixel_y": 772.2689210548997
+  },
+  {
+    "type": "building",
+    "name": "Helen Mayo",
+    "pixel_x": 871.0138275250793,
+    "pixel_y": 728.1623024381697
+  },
+  {
+    "type": "building",
+    "name": "Margaret Graham Building",
+    "pixel_x": 952.7388691790402,
+    "pixel_y": 476.1893910346553
+  },
+  {
+    "type": "building",
+    "name": "Mawson Laboratories",
+    "pixel_x": 678.6506227198988,
+    "pixel_y": 835.1400645179674
+  },
+  {
+    "type": "building",
+    "name": "South Australian Museum",
+    "pixel_x": 418.75489381328225,
+    "pixel_y": 440.8642436414957
+  },
+  {
+    "type": "building",
+    "name": "Hartley",
+    "pixel_x": 269.7923993971199,
+    "pixel_y": 647.6221301453188
+  },
+  {
+    "type": "building",
+    "name": "Art Gallery of South Australia",
+    "pixel_x": 484.16590877622366,
+    "pixel_y": 473.58247046452016
+  },
+  {
+    "type": "building",
+    "name": "Wilson Parking",
+    "pixel_x": 959.3807578440756,
+    "pixel_y": 741.5148718245327
+  },
+  {
+    "type": "building",
+    "name": "Horace Lamb",
+    "pixel_x": 589.6724438108504,
+    "pixel_y": 631.676446435973
+  },
+  {
+    "type": "building",
+    "name": "Hughes",
+    "pixel_x": 556.2976488135755,
+    "pixel_y": 525.960505835712
+  },
+  {
+    "type": "building",
+    "name": "Engineering North",
+    "pixel_x": 710.5191552657634,
+    "pixel_y": 667.2475347230211
+  },
+  {
+    "type": "building",
+    "name": "Lower Napier",
+    "pixel_x": 698.5942250080407,
+    "pixel_y": 530.0438995761797
+  },
+  {
+    "type": "building",
+    "name": "Napier",
+    "pixel_x": 711.7804814334959,
+    "pixel_y": 495.31862074136734
+  },
+  {
+    "type": "building",
+    "name": "Molecular Life Sciences",
+    "pixel_x": 697.1826199870557,
+    "pixel_y": 786.0790747012943
+  },
+  {
+    "type": "building",
+    "name": "Union House",
+    "pixel_x": 449.0448291786015,
+    "pixel_y": 701.4779613157734
+  },
+  {
+    "type": "building",
+    "name": "Schulz",
+    "pixel_x": 332.3338833190501,
+    "pixel_y": 624.4829241549596
+  },
+  {
+    "type": "building",
+    "name": "Elder Conservatorium",
+    "pixel_x": 613.6767670791596,
+    "pixel_y": 504.7534776516259
+  },
+  {
+    "type": "building",
+    "name": "PAC Boatshed",
+    "pixel_x": 414.718687498942,
+    "pixel_y": 953.3644225355238
+  },
+  {
+    "type": "building",
+    "name": "Mitchell Building",
+    "pixel_x": 551.3811392281204,
+    "pixel_y": 436.22756480798125
+  },
+  {
+    "type": "building",
+    "name": "Darling",
+    "pixel_x": 467.69940285012126,
+    "pixel_y": 637.9270630758256
+  },
+  {
+    "type": "building",
+    "name": "Observatory",
+    "pixel_x": 401.618326054886,
+    "pixel_y": 673.5581386871636
+  },
+  {
+    "type": "building",
+    "name": "Darling West",
+    "pixel_x": 423.24801887758076,
+    "pixel_y": 655.3436238579452
+  },
+  {
+    "type": "building",
+    "name": "Chemical Engineering",
+    "pixel_x": 788.7704999987036,
+    "pixel_y": 678.8778591556475
+  },
+  {
+    "type": "building",
+    "name": "Ligertwood",
+    "pixel_x": 752.6971337199211,
+    "pixel_y": 459.8280014488846
+  },
+  {
+    "type": "building",
+    "name": "Engineering Annex",
+    "pixel_x": 771.7631249967963,
+    "pixel_y": 658.8621971849352
+  },
+  {
+    "type": "building",
+    "name": "TechCentral",
+    "pixel_x": 930.8655757363886,
+    "pixel_y": 520.5242893584073
+  },
+  {
+    "type": "building",
+    "name": "Petroleum Engineering",
+    "pixel_x": 749.3633476234972,
+    "pixel_y": 732.1322635002434
+  },
+  {
+    "type": "building",
+    "name": "Engineering Maths",
+    "pixel_x": 717.4323461912572,
+    "pixel_y": 716.2483562408015
+  },
+  {
+    "type": "building",
+    "name": "Lady Symon",
+    "pixel_x": 419.9215469546616,
+    "pixel_y": 759.2235795082524
+  },
+  {
+    "type": "building",
+    "name": "George Murray",
+    "pixel_x": 484.75961498357356,
+    "pixel_y": 751.0687524247915
+  },
+  {
+    "type": "building",
+    "name": "The Cloisters",
+    "pixel_x": 451.20372777432203,
+    "pixel_y": 745.0732432631776
+  },
+  {
+    "type": "building",
+    "name": "Former Armoury and Archway",
+    "pixel_x": 412.56413654983044,
+    "pixel_y": 502.7491409741342
+  },
+  {
+    "type": "building",
+    "name": "Former Mounted Police Barracks",
+    "pixel_x": 378.1475318707526,
+    "pixel_y": 506.715195546858
+  },
+  {
+    "type": "building",
+    "name": "Physics",
+    "pixel_x": 443.2134742233902,
+    "pixel_y": 588.0968317938969
+  },
+  {
+    "type": "building",
+    "name": "State Library of South Australia",
+    "pixel_x": 305.1970716472715,
+    "pixel_y": 464.0783015191555
+  },
+  {
+    "type": "building",
+    "name": "Kenneth Wills",
+    "pixel_x": 547.2010674383491,
+    "pixel_y": 486.8699160674587
+  },
+  {
+    "type": "building",
+    "name": "Access Lift",
+    "pixel_x": 642.9458868987858,
+    "pixel_y": 575.0437549920753
+  },
+  {
+    "type": "building",
+    "name": "Barr Smith Library",
+    "pixel_x": 555.257323730737,
+    "pixel_y": 668.3856888944283
+  },
+  {
+    "type": "building",
+    "name": "Old Classics Wing",
+    "pixel_x": 577.9506482128054,
+    "pixel_y": 471.557397804223
+  },
+  {
+    "type": "building",
+    "name": "Yugo",
+    "pixel_x": 913.3626684583724,
+    "pixel_y": 332.5948183387518
+  },
+  {
+    "type": "building",
+    "name": "SpaceLab",
+    "pixel_x": 926.3062360789627,
+    "pixel_y": 799.3069047788158
+  },
+  {
+    "type": "building",
+    "name": "Scott Theatre",
+    "pixel_x": 346.36355010420084,
+    "pixel_y": 655.9030402284116
+  },
+  {
+    "type": "building",
+    "name": "Barr Smith Library",
+    "pixel_x": 555.3762135989964,
+    "pixel_y": 668.2610070900992
+  },
+  {
+    "type": "green_area",
+    "name": "Maths Lawns",
+    "pixel_x": 672.9132641367614,
+    "pixel_y": 734.030615969561
+  },
+  {
+    "type": "green_area",
+    "name": "Armoury Courtyard",
+    "pixel_x": 405.23414654657245,
+    "pixel_y": 479.84647915512323
+  },
+  {
+    "type": "green_area",
+    "name": "Goodman Lawns",
+    "pixel_x": 618.0806249994785,
+    "pixel_y": 434.7336338022724
+  },
+  {
+    "type": "green_area",
+    "name": "Barr Smith Lawns",
+    "pixel_x": 528.6246941853315,
+    "pixel_y": 733.2429423518479
+  },
+  {
+    "type": "green_area",
+    "name": "Walter Young Gardens",
+    "pixel_x": 650.8372123036534,
+    "pixel_y": 530.000326029025
+  },
+  {
+    "type": "green_area",
+    "name": "Pfitzner Court",
+    "pixel_x": 317.64851552061737,
+    "pixel_y": 652.0690590851009
+  },
+  {
+    "type": "green_area",
+    "name": "Frome Park",
+    "pixel_x": 902.3152517732233,
+    "pixel_y": 880.4525576354936
+  },
+  {
+    "type": "green_area",
+    "name": "Armoury Lawns",
+    "pixel_x": 410.7781931348145,
+    "pixel_y": 521.6950782295316
+  },
+  {
+    "type": "green_area",
+    "name": "Heddle Court",
+    "pixel_x": 589.0074080191553,
+    "pixel_y": 623.6325219012797
+  },
+  {
+    "type": "green_area",
+    "name": "Mawson Corner",
+    "pixel_x": 697.942292753607,
+    "pixel_y": 886.3050028951839
+  }
+]

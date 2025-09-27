@@ -1,0 +1,452 @@
+[
+  {
+    "type": "building",
+    "name": "Ingkarni Wardli",
+    "grid_x": 243,
+    "grid_y": 255
+  },
+  {
+    "type": "building",
+    "name": "Madley",
+    "grid_x": 123,
+    "grid_y": 255
+  },
+  {
+    "type": "building",
+    "name": "Playford",
+    "grid_x": 288,
+    "grid_y": 201
+  },
+  {
+    "type": "building",
+    "name": "Centenary",
+    "grid_x": 297,
+    "grid_y": 180
+  },
+  {
+    "type": "building",
+    "name": "Brookman",
+    "grid_x": 309,
+    "grid_y": 159
+  },
+  {
+    "type": "building",
+    "name": "Bonython Jubilee",
+    "grid_x": 288,
+    "grid_y": 225
+  },
+  {
+    "type": "building",
+    "name": "Adelaide Botanic High School",
+    "grid_x": 300,
+    "grid_y": 336
+  },
+  {
+    "type": "building",
+    "name": "Engineering South",
+    "grid_x": 258,
+    "grid_y": 222
+  },
+  {
+    "type": "building",
+    "name": "Johnson",
+    "grid_x": 123,
+    "grid_y": 294
+  },
+  {
+    "type": "building",
+    "name": "Barr Smith South",
+    "grid_x": 216,
+    "grid_y": 222
+  },
+  {
+    "type": "building",
+    "name": "Hub Central",
+    "grid_x": 213,
+    "grid_y": 213
+  },
+  {
+    "type": "building",
+    "name": "Oliphant",
+    "grid_x": 141,
+    "grid_y": 216
+  },
+  {
+    "type": "building",
+    "name": "Benham Laboratories",
+    "grid_x": 219,
+    "grid_y": 291
+  },
+  {
+    "type": "building",
+    "name": "Hetzel",
+    "grid_x": 312,
+    "grid_y": 204
+  },
+  {
+    "type": "building",
+    "name": "Workshop",
+    "grid_x": 159,
+    "grid_y": 207
+  },
+  {
+    "type": "building",
+    "name": "Badger",
+    "grid_x": 123,
+    "grid_y": 276
+  },
+  {
+    "type": "building",
+    "name": "Jordan",
+    "grid_x": 96,
+    "grid_y": 291
+  },
+  {
+    "type": "building",
+    "name": "Brailsford Robertson",
+    "grid_x": 93,
+    "grid_y": 303
+  },
+  {
+    "type": "building",
+    "name": "Marjoribanks Wing",
+    "grid_x": 276,
+    "grid_y": 120
+  },
+  {
+    "type": "building",
+    "name": "Wilson Parking",
+    "grid_x": 294,
+    "grid_y": 114
+  },
+  {
+    "type": "building",
+    "name": "Bonython Hall",
+    "grid_x": 246,
+    "grid_y": 168
+  },
+  {
+    "type": "building",
+    "name": "The Braggs",
+    "grid_x": 231,
+    "grid_y": 279
+  },
+  {
+    "type": "building",
+    "name": "Helen Mayo North",
+    "grid_x": 321,
+    "grid_y": 288
+  },
+  {
+    "type": "building",
+    "name": "Helen Mayo",
+    "grid_x": 324,
+    "grid_y": 273
+  },
+  {
+    "type": "building",
+    "name": "Margaret Graham Building",
+    "grid_x": 357,
+    "grid_y": 177
+  },
+  {
+    "type": "building",
+    "name": "Mawson Laboratories",
+    "grid_x": 252,
+    "grid_y": 312
+  },
+  {
+    "type": "building",
+    "name": "South Australian Museum",
+    "grid_x": 156,
+    "grid_y": 165
+  },
+  {
+    "type": "building",
+    "name": "Hartley",
+    "grid_x": 99,
+    "grid_y": 240
+  },
+  {
+    "type": "building",
+    "name": "Art Gallery of South Australia",
+    "grid_x": 180,
+    "grid_y": 177
+  },
+  {
+    "type": "building",
+    "name": "Wilson Parking",
+    "grid_x": 357,
+    "grid_y": 276
+  },
+  {
+    "type": "building",
+    "name": "Horace Lamb",
+    "grid_x": 219,
+    "grid_y": 234
+  },
+  {
+    "type": "building",
+    "name": "Hughes",
+    "grid_x": 207,
+    "grid_y": 195
+  },
+  {
+    "type": "building",
+    "name": "Engineering North",
+    "grid_x": 264,
+    "grid_y": 249
+  },
+  {
+    "type": "building",
+    "name": "Lower Napier",
+    "grid_x": 261,
+    "grid_y": 198
+  },
+  {
+    "type": "building",
+    "name": "Napier",
+    "grid_x": 264,
+    "grid_y": 183
+  },
+  {
+    "type": "building",
+    "name": "Molecular Life Sciences",
+    "grid_x": 261,
+    "grid_y": 294
+  },
+  {
+    "type": "building",
+    "name": "Union House",
+    "grid_x": 168,
+    "grid_y": 261
+  },
+  {
+    "type": "building",
+    "name": "Schulz",
+    "grid_x": 123,
+    "grid_y": 234
+  },
+  {
+    "type": "building",
+    "name": "Elder Conservatorium",
+    "grid_x": 228,
+    "grid_y": 189
+  },
+  {
+    "type": "building",
+    "name": "PAC Boatshed",
+    "grid_x": 153,
+    "grid_y": 357
+  },
+  {
+    "type": "building",
+    "name": "Mitchell Building",
+    "grid_x": 204,
+    "grid_y": 162
+  },
+  {
+    "type": "building",
+    "name": "Darling",
+    "grid_x": 174,
+    "grid_y": 237
+  },
+  {
+    "type": "building",
+    "name": "Observatory",
+    "grid_x": 150,
+    "grid_y": 252
+  },
+  {
+    "type": "building",
+    "name": "Darling West",
+    "grid_x": 156,
+    "grid_y": 243
+  },
+  {
+    "type": "building",
+    "name": "Chemical Engineering",
+    "grid_x": 294,
+    "grid_y": 252
+  },
+  {
+    "type": "building",
+    "name": "Ligertwood",
+    "grid_x": 282,
+    "grid_y": 171
+  },
+  {
+    "type": "building",
+    "name": "Engineering Annex",
+    "grid_x": 288,
+    "grid_y": 246
+  },
+  {
+    "type": "building",
+    "name": "TechCentral",
+    "grid_x": 348,
+    "grid_y": 195
+  },
+  {
+    "type": "building",
+    "name": "Petroleum Engineering",
+    "grid_x": 279,
+    "grid_y": 273
+  },
+  {
+    "type": "building",
+    "name": "Engineering Maths",
+    "grid_x": 267,
+    "grid_y": 267
+  },
+  {
+    "type": "building",
+    "name": "Lady Symon",
+    "grid_x": 156,
+    "grid_y": 282
+  },
+  {
+    "type": "building",
+    "name": "George Murray",
+    "grid_x": 180,
+    "grid_y": 279
+  },
+  {
+    "type": "building",
+    "name": "The Cloisters",
+    "grid_x": 168,
+    "grid_y": 279
+  },
+  {
+    "type": "building",
+    "name": "Former Armoury and Archway",
+    "grid_x": 153,
+    "grid_y": 186
+  },
+  {
+    "type": "building",
+    "name": "Former Mounted Police Barracks",
+    "grid_x": 141,
+    "grid_y": 189
+  },
+  {
+    "type": "building",
+    "name": "Physics",
+    "grid_x": 165,
+    "grid_y": 219
+  },
+  {
+    "type": "building",
+    "name": "State Library of South Australia",
+    "grid_x": 114,
+    "grid_y": 174
+  },
+  {
+    "type": "building",
+    "name": "Kenneth Wills",
+    "grid_x": 204,
+    "grid_y": 180
+  },
+  {
+    "type": "building",
+    "name": "Access Lift",
+    "grid_x": 240,
+    "grid_y": 213
+  },
+  {
+    "type": "building",
+    "name": "Barr Smith Library",
+    "grid_x": 207,
+    "grid_y": 249
+  },
+  {
+    "type": "building",
+    "name": "Old Classics Wing",
+    "grid_x": 216,
+    "grid_y": 174
+  },
+  {
+    "type": "building",
+    "name": "Yugo",
+    "grid_x": 342,
+    "grid_y": 123
+  },
+  {
+    "type": "building",
+    "name": "SpaceLab",
+    "grid_x": 345,
+    "grid_y": 297
+  },
+  {
+    "type": "building",
+    "name": "Scott Theatre",
+    "grid_x": 129,
+    "grid_y": 243
+  },
+  {
+    "type": "building",
+    "name": "Barr Smith Library",
+    "grid_x": 207,
+    "grid_y": 249
+  },
+  {
+    "type": "green_area",
+    "name": "Maths Lawns",
+    "grid_x": 252,
+    "grid_y": 273
+  },
+  {
+    "type": "green_area",
+    "name": "Armoury Courtyard",
+    "grid_x": 150,
+    "grid_y": 177
+  },
+  {
+    "type": "green_area",
+    "name": "Goodman Lawns",
+    "grid_x": 231,
+    "grid_y": 162
+  },
+  {
+    "type": "green_area",
+    "name": "Barr Smith Lawns",
+    "grid_x": 198,
+    "grid_y": 273
+  },
+  {
+    "type": "green_area",
+    "name": "Walter Young Gardens",
+    "grid_x": 243,
+    "grid_y": 198
+  },
+  {
+    "type": "green_area",
+    "name": "Pfitzner Court",
+    "grid_x": 117,
+    "grid_y": 243
+  },
+  {
+    "type": "green_area",
+    "name": "Frome Park",
+    "grid_x": 336,
+    "grid_y": 330
+  },
+  {
+    "type": "green_area",
+    "name": "Armoury Lawns",
+    "grid_x": 153,
+    "grid_y": 195
+  },
+  {
+    "type": "green_area",
+    "name": "Heddle Court",
+    "grid_x": 219,
+    "grid_y": 231
+  },
+  {
+    "type": "green_area",
+    "name": "Mawson Corner",
+    "grid_x": 261,
+    "grid_y": 330
+  }
+]

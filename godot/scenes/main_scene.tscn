@@ -1,18 +1,27 @@
-[gd_scene load_steps=3 format=3 uid="uid://du83lyc8nql6k"]
+[gd_scene load_steps=5 format=3 uid="uid://du83lyc8nql6k"]
 
 [ext_resource type="PackedScene" uid="uid://cix2ovm2r6dho" path="res://scenes/generic_npc.tscn" id="1_4v7ck"]
 [ext_resource type="PackedScene" uid="uid://b75ir7pjoqxkj" path="res://scenes/player.tscn" id="1_a443g"]
+[ext_resource type="PackedScene" uid="uid://dl1l036gk2pc2" path="res://scenes/environment.tscn" id="2_pu3yx"]
+[ext_resource type="PackedScene" uid="uid://b2u1j75jyryq3" path="res://scenes/environment_3.tscn" id="3_7ykc4"]
 
 [node name="MainScene" type="Node2D"]
 
+[node name="Environment3" parent="." instance=ExtResource("3_7ykc4")]
+
+[node name="Environment" parent="." instance=ExtResource("2_pu3yx")]
+position = Vector2(626, 258)
+
 [node name="Player" parent="." instance=ExtResource("1_a443g")]
-position = Vector2(574, 317)
+position = Vector2(614, 234)
+scale = Vector2(0.332, 0.332)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
+zoom = Vector2(3.095, 3.095)
 position_smoothing_enabled = true
 position_smoothing_speed = 40.0
 
 [node name="generic_npc" parent="." instance=ExtResource("1_4v7ck")]
-position = Vector2(465, 281)
+position = Vector2(446, 260)
 scale = Vector2(0.5, 0.5)
 patrolPoints = [Vector2(50, 30), Vector2(-90, -100), Vector2(100, 0), Vector2(120, -100)]
