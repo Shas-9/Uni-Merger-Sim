@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dr2viu05gaa7y"
-path="res://.godot/imported/petition-paper-item.png-d2f285e6b057d2a335e5422001e36efc.ctex"
+uid="uid://bedml1acat08b"
+path="res://.godot/imported/gun-air-defence-missile-transparent-png-image-8.webp-94926687421f120dcbbd3eca89ac5a02.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/petition-paper-item.png"
-dest_files=["res://.godot/imported/petition-paper-item.png-d2f285e6b057d2a335e5422001e36efc.ctex"]
+source_file="res://DevlynArt/gun-air-defence-missile-transparent-png-image-8.webp"
+dest_files=["res://.godot/imported/gun-air-defence-missile-transparent-png-image-8.webp-94926687421f120dcbbd3eca89ac5a02.ctex"]
 
 [params]
 

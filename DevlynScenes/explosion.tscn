@@ -1,0 +1,114 @@
+[gd_scene load_steps=3 format=3 uid="uid://dqplj0itksjcj"]
+
+[ext_resource type="Script" uid="uid://1i3q6i6ebrjf" path="res://DevlynScripts/explosion.gd" id="1_a801j"]
+[ext_resource type="Texture2D" uid="uid://c1rkdovex11f7" path="res://DevlynArt/explosion-circle-transparent-png-stickpng-19.webp" id="2_4okmj"]
+
+[node name="explosion" type="Node2D"]
+scale = Vector2(0.01, 0.01)
+script = ExtResource("1_a801j")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_4okmj")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+target_position = Vector2(0, 200)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D2" type="RayCast2D" parent="RayCast2D"]
+target_position = Vector2(60, 200)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D3" type="RayCast2D" parent="RayCast2D/RayCast2D2"]
+target_position = Vector2(120, 162.05)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D4" type="RayCast2D" parent="RayCast2D/RayCast2D2/RayCast2D3"]
+target_position = Vector2(180, 77.7)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D4" type="RayCast2D" parent="RayCast2D/RayCast2D2/RayCast2D3/RayCast2D4"]
+target_position = Vector2(240, 28.765)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D" type="RayCast2D" parent="RayCast2D"]
+rotation = -1.5680625
+target_position = Vector2(0, 200)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D2" type="RayCast2D" parent="RayCast2D/RayCast2D"]
+target_position = Vector2(60, 200)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D3" type="RayCast2D" parent="RayCast2D/RayCast2D/RayCast2D2"]
+target_position = Vector2(120, 162.05)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D4" type="RayCast2D" parent="RayCast2D/RayCast2D/RayCast2D2/RayCast2D3"]
+target_position = Vector2(180, 77.7)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D4" type="RayCast2D" parent="RayCast2D/RayCast2D/RayCast2D2/RayCast2D3/RayCast2D4"]
+target_position = Vector2(240, 28.765)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D3" type="RayCast2D" parent="RayCast2D"]
+rotation = 3.1204493
+target_position = Vector2(0, 200)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D2" type="RayCast2D" parent="RayCast2D/RayCast2D3"]
+target_position = Vector2(60, 200)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D3" type="RayCast2D" parent="RayCast2D/RayCast2D3/RayCast2D2"]
+target_position = Vector2(120, 162.05)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D4" type="RayCast2D" parent="RayCast2D/RayCast2D3/RayCast2D2/RayCast2D3"]
+target_position = Vector2(180, 77.7)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D4" type="RayCast2D" parent="RayCast2D/RayCast2D3/RayCast2D2/RayCast2D3/RayCast2D4"]
+target_position = Vector2(240, 28.765)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D" type="RayCast2D" parent="RayCast2D/RayCast2D3"]
+rotation = -1.5680625
+target_position = Vector2(0, 200)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D2" type="RayCast2D" parent="RayCast2D/RayCast2D3/RayCast2D"]
+target_position = Vector2(60, 200)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D3" type="RayCast2D" parent="RayCast2D/RayCast2D3/RayCast2D/RayCast2D2"]
+target_position = Vector2(120, 162.05)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D4" type="RayCast2D" parent="RayCast2D/RayCast2D3/RayCast2D/RayCast2D2/RayCast2D3"]
+target_position = Vector2(180, 77.7)
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RayCast2D4" type="RayCast2D" parent="RayCast2D/RayCast2D3/RayCast2D/RayCast2D2/RayCast2D3/RayCast2D4"]
+target_position = Vector2(240, 28.765)
+collide_with_areas = true
+collide_with_bodies = false
