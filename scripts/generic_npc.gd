@@ -57,7 +57,7 @@ func walkTo(endPos: Vector2, stepSize: float) -> void:
 		var dirVector = delta/sqrt(d2)
 		
 		var result = maxAbs(dirVector.x, dirVector.y)
-		$AnimatedSprite2D.animation = getAnimationName(result[0], result[1])
+		$npc/AnimatedSprite2D.animation = getAnimationName(result[0], result[1])
 		position += dirVector * stepSize
 		walking = true
 		#$Sprite2D.texture.noise.offset += Vector3(delta.x, delta.y, 0)/sqrt(d2) * stepSize
@@ -70,7 +70,7 @@ func runAnimation(delta: float) -> void:
 		currentFrame += animationSpeed * delta
 	if currentFrame >= maxFrame:
 		currentFrame = 0
-	$AnimatedSprite2D.frame = int(currentFrame)
+	$npc/AnimatedSprite2D.frame = int(currentFrame)
 	
 var timePassed = 0	
 func patrol(delta: float) -> void:

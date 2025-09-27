@@ -2,10 +2,11 @@
 
 [ext_resource type="PackedScene" uid="uid://cpdqgodtu2gpv" path="res://DevlynScenes/boss.tscn" id="2_d27am"]
 [ext_resource type="PackedScene" uid="uid://b75ir7pjoqxkj" path="res://scenes/player.tscn" id="3_j4nga"]
+
 [ext_resource type="Script" uid="uid://ximq6mx1q67y" path="res://DevlynScripts/SignatureCounter.gd" id="3_r5e8v"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r5e8v"]
-bg_color = Color(0.87538236, 0, 0.101878576, 1)
+bg_color = Color(0.875382, 0, 0.101879, 1)
 
 [sub_resource type="GDScript" id="GDScript_52ox3"]
 script/source = "extends Label
