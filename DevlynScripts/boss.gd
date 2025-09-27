@@ -3,7 +3,7 @@ extends Node2D
 @export var attack_1 = load('res://DevlynScenes/boss_attack_1.tscn')
 @export var attack_2 = load('res://DevlynScenes/boss_attack_2.tscn')
 @export var attack_3 = load('res://DevlynScenes/boss_attack_3.tscn')
-var interval_between_attacks = 10
+var interval_between_attacks = 6
 var interval_between_attacks_2 = 3
 var time_since_last_attack = 3
 var max_health = 30
@@ -44,6 +44,6 @@ func take_damage(damage = 1):
 	boss_health_bar.value = current_health
 	
 func death():
-	#put death text and link to finish story here and remove queue_free()
+	get_tree().change_scene_to_file("res://DevlynScenes/good_end_screen.tscn")  # check exact path
 	queue_free()
 	

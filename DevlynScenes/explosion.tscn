@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://1i3q6i6ebrjf" path="res://DevlynScripts/explosion.gd" id="1_a801j"]
 [ext_resource type="Texture2D" uid="uid://c1rkdovex11f7" path="res://DevlynArt/explosion-circle-transparent-png-stickpng-19.webp" id="2_4okmj"]
 
-[node name="explosion" type="Node2D"]
+[node name="explosion" type="Node2D" groups=["projectiles"]]
 scale = Vector2(0.01, 0.01)
 script = ExtResource("1_a801j")
 
