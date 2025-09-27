@@ -26,6 +26,9 @@ func _process(delta: float) -> void:
 		self.scale -= Vector2(0.01, 0.01)
 		if self.scale <= Vector2(0,0):
 			explode()
+	var boss = get_tree().get_first_node_in_group("boss")
+	if !boss:
+		queue_free()
 
 func explode() -> void:
 	var e = explosion.instantiate()

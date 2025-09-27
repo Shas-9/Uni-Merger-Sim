@@ -1,7 +1,7 @@
 [gd_scene load_steps=15 format=3 uid="uid://b75ir7pjoqxkj"]
 
 [ext_resource type="Texture2D" uid="uid://b6rnhssmwwqjc" path="res://art/chibi-layered.png" id="1_po105"]
-[ext_resource type="Script" path="res://scripts/player.gd" id="1_r8yge"]
+[ext_resource type="Script" uid="uid://dacwnalffutbs" path="res://scripts/player.gd" id="1_r8yge"]
 [ext_resource type="PackedScene" uid="uid://bmcjqwtlibqib" path="res://scenes/projectile.tscn" id="2_d0gyb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_id6k6"]
@@ -89,7 +89,7 @@ animations = [{
 radius = 6.0
 height = 18.0
 
-[node name="Player" type="Area2D"]
+[node name="Player" type="Area2D" groups=["Player"]]
 script = ExtResource("1_r8yge")
 projectile_scene = ExtResource("2_d0gyb")
 metadata/_edit_group_ = true

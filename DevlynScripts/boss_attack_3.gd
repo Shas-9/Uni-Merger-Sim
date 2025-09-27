@@ -16,6 +16,9 @@ func _process(delta: float) -> void:
 		
 	if bullets_shot >= max_bullets:
 		queue_free()
+	var boss = get_tree().get_first_node_in_group("boss")
+	if !boss:
+		queue_free()
 		
 func shoot_bullet() -> void:
 	var b = bullet.instantiate()

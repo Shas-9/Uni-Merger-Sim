@@ -27,6 +27,8 @@ func _process(delta: float) -> void:
 		death()
 	if current_health == max_health/2:
 		interval_between_attacks = interval_between_attacks_2 
+		
+	
 	
 
 func random_attack_start() -> void:

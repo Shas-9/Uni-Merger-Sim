@@ -20,4 +20,6 @@ func _process(delta: float) -> void:
 		if self.scale <= Vector2(0,0):
 			queue_free()
 		
-	
+	var boss = get_tree().get_first_node_in_group("boss")
+	if !boss:
+		queue_free()

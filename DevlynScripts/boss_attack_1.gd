@@ -1,9 +1,9 @@
 extends Node2D
 
 var bullet_scene = load('res://DevlynScenes/bullet.tscn')
-@export var fire_rate: float = .04  # seconds between bullets
+@export var fire_rate: float = .05  # seconds between bullets
 var time_since_last_shot: float = 0.0
-var max_bullets = 500
+var max_bullets = 400
 var bullets_shot = 0
 func _process(delta: float) -> void:
 	time_since_last_shot += delta
@@ -18,6 +18,9 @@ func _process(delta: float) -> void:
 	
 	
 	if bullets_shot >= max_bullets:
+		queue_free()
+	var boss = get_tree().get_first_node_in_group("boss")
+	if !boss:
 		queue_free()
 
 func shoot_bullet() -> void:
